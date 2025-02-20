@@ -68,7 +68,7 @@
 &kp C_MUTE  &kp LEFT_WIN  &kp LEFT_SHIFT  &kp LCTRL  &kp SPACE  &mo 1     &kp ENTER        &kp ENTER  &kp SPACE  &mo 2      &tog 3   &kp DELETE
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+            sensor-bindings = <&inc_dec_kp LA(TAB) LS(LA(TAB))>;
             display-name = "default";
         };
 
